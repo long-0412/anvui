@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/css.css">
+    <!--Thu vien fontawesome-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- thu vien font chu -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="container">
+                <div class="header__wrap">
+                    <div class="header__left">
+                        <div class="header__wrap--logo">
+                            <a href="https://www.anvui.vn" title="Về chúng tôi" class="header-logo">
+                                <img src="https://www.anvui.vn/imgs/logo_b.png" title="Về chúng tôi" alt="Về chúng tôi">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header__right">
+                        <a href="#">ĐĂNG KÝ DÙNG THỬ!</a>
+                    </div>
+                </div>
+        </div>
+    </header>
+    <section class="loginForm">
+        <div class="container">
+            <div class="row">
+                <div class="nav__left">
+                    <div class="nav__left--title">
+                        <h3>Đăng nhập</h3>
+                    </div>
+                    <div class="nav__left--login">
+                        <div class="login--form">
+                            <form action="">
+                                <label for="name">Tên đăng nhập</label>
+                                <br>
+                                <input type="text" id="name" name="name">
+                                <br>
+                                <label  for="pass">Mật khẩu</label>
+                                <br>
+                                <input type="password" id="pass" name="pass">
+                                <br>
+                            </form>
+                        </div>
+                        <input class="submit" type="submit" value="Đăng nhập" style="color: #fff;">
+                        <br>
+                        <a class="forget" href="#">Quên mật khẩu</a>
+                        <div class="nav__left--intro">
+                            <p class="intro--text">Với sứ mệnh Số hoá ngành vận tải hành khách,&nbsp;<span>AN VUI</span>&nbsp; là đơn vị số 1 tại Việt Nam phát triển hệ sinh thái tổng thể cho ngành vận tải.</p>
+                            <p class="intro--text">Ứng dụng &nbsp; <span> AN VUI </span> &nbsp; không chỉ đơn thuần là Sử dụng phần mềm mà &nbsp; <span>AN VUI</span>&nbsp; sẽ hỗ trợ doanh nghiệp của Bạn setup một quy trình vận hành khoa học và chuyên nghiệp.</p>
+                        </div>
+                        <ul class="nav__left--contact">
+                            <li><a href="#">Website: https://anvui.vn</a></li>
+                            <li><a href="#">Hotline: 024 9999 6666</a></li>
+                            <li><a href="#">trienkhai@anvui.vn</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- <hr> -->
+                <div class="nav__right">
+                    <div class="nav__right--content">
+                        <div class="nav__right--title">
+                            <h3>AN VUI có gì?</h3>
+                        </div>
+                        <ul class="nav__right--menu">
+                            <li><a href="#1" class="tab active">Phần mềm quản trị bán vé</a></li>
+                            <li><a href="#2" class="tab">Ứng dụng cho lái phụ xe</a></li>
+                            <li><a href="#3" class="tab">Ứng dụng bán vé cho đại lý</a></li>
+                            <li><a href="#4" class="tab">Ứng dụng quản lý hàng hoá</a></li>
+                            <li><a href="#5" class="tab">Tích hợp thanh toán Vé điện tử và hợp đồng điện tử</a></li>
+                            <li><a href="#6" class="tab">Tổng đài đặt vé tự động</a></li>
+                        </ul>
+                        <div class="nav__right--viewmore">
+                            <a href="#">Tìm hiểu thêm</a>
+                        </div>
+                    </div>
+                    <div class="nav__right--img">
+                        <div class="tab-content active" id="1">
+                            <img src="./img/Group 180.svg">
+                            <p>Phần mềm giúp quản lý toàn bộ hoạt động bán vé tại nhà xe từ khâu tổng đài đặt vé đến khâu kế toán, Giảm thất thoát trong vận hành...</p>
+                        </div>
+                        <div class="tab-content" id="2">
+                            <img src="./img/Group 184.png">
+                            <p>Giúp tài xế và phụ xe Bán vé dọc đường hoặc đón trả khách đúng điểm dừng đỗ...</p>
+                        </div>
+                        <div class="tab-content" id="3">
+                            <img src="./img/Group 182.svg">
+                            <p>Là ứng dụng giúp mở rộng kênh phân phối bán vé online cho các đại lý hoặc đẩy vé của nhà xe lên các kênh bán vé online như Zalo, Viettel Pay, Vin ID ... Nhà xe có khả năng chủ động về chính sách bán vé cho đại lý và tỷ lệ hoa hồng. Bảo mật thông tin không bị lộ thông tin hành khách cho đối thủ</p>
+                        </div>
+                        <div class="tab-content" id="4">
+                            <img src="./img/Group 183.svg">
+                            <p>Phần mềm giành cho doanh nghiệp vận tải hàng hoá, gửi hàng theo xe và chuyển phát chuyên nghiệp. Với các chức năng Giao nhận hàng tại nhà, theo dõi vị trí hàng di chuyển trên đường, quản lý thu hộ COD, Quản lý hàng tồn kho... Chính xác tuyệt đối tránh nhầm lẫn hàng hoá theo Mã vạch QR Code.</p>
+                        </div>
+                        <div class="tab-content" id="5">
+                            <img src="./img/Group 185.svg">
+                            <p>AN VUI tích hợp với các kênh thanh toán như QR Code, Ví điện tử đồng thời Giúp Nhà xe Ứng dụng hợp đồng điện tử và Vé điện tử phù hợp với Nghị định 10, Thông tư 12, Nghị định 100 và pháp luật hiện hành.</p>
+                        </div>
+                        <div class="tab-content" id="6">
+                            <img src="./img/Group 4.svg">
+                            <p>Là giải pháp quản lý thông tin hành khách, Tích điểm cho hành khách, Bán vé tháng và chăm sóc hành khách tại các phòng vé và trên xe ô tô. Khách hàng được trải nghiệm dịch vụ Wifi mà không cần phải hỏi pass word.. Tạo nên hình ảnh và sự trải nghiệm tuyệt vời cho Hành khách đối với nhà xe</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <img src="./img/Group.png">
+    </footer>
+    <script src="./js/index.js"></script>
+</body>
+</html>
